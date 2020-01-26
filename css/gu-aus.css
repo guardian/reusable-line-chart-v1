@@ -87,17 +87,58 @@ h2 {
 	font-weight:900;
 }
 
-.chartTitle {
-	font-size:1.25rem;
-	line-height:1.375rem;
-	padding-bottom:.45rem;
-	font-weight:600;
-	color:#000;
+.row {
+	margin-bottom: 5px;
 }
 
-.borderBottom {
+.figureTitle {
+		font-size: 20px;
+	    line-height: 28px;
+	    font-weight: 600;
+	    -webkit-font-smoothing: antialiased;
+	    color: #333333;
+	    font-family: "GH Guardian Headline", Georgia, serif;
+	    margin-bottom: 2px;
+	}
+
+	a {
+		color:#ab0613;
+		text-decoration: none !important;
+		border-bottom: 0.0625rem solid #dcdcdc;
+		-webkit-transition: border-color 0.15s ease-out;
+		transition: border-color 0.15s ease-out;
+	}
+
+	a:hover {
+		border-color: #ab0613;
+	}
+
+	.subTitle {
+		font-size: 16px;
+	    line-height: 20px;
+	    color: #333333;
+	    font-family: "Guardian Egyptian Web", Georgia, serif;
+	}
+
+	.footer {
+		margin-top:5px;
+		font-size: 12px;
+		line-height: 16px;
+		color: rgb(118, 118, 118);
+		font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	}
+
+	.notes {
+		font-family: 'Guardian Text Sans Web',Arial;
+		font-size:16px;
+		color:#767676;
+	}
+
+.outer-wrapper {
 	border-bottom:1px solid #dcdcdc;
+	border-top:1px solid #dcdcdc;
 	padding-bottom:.45rem;
+	padding-top:.45rem;
 }
 
 .chartSans {
@@ -107,14 +148,14 @@ h2 {
 	font-family:'Guardian Text Sans Web', 'Agate Sans', sans-serif;
 }
 
-.subTitle {
-	font-size:1rem;
-	color:#808080;
-	font-weight:bold;
+.tick text {
+	font-size:0.8rem;
+	line-height:1em;
 	font-family:'Guardian Text Sans Web', 'Agate Sans', sans-serif;
 }
 
 .footer {
+	margin-top:5px;
 	font-size: 12px;
 	line-height: 16px;
 	color: rgb(118, 118, 118);
@@ -234,6 +275,8 @@ text-align: center;
 
 #outer-wrapper {
 	position: relative;
+	border-bottom:1px solid #dcdcdc;
+	border-top:1px solid #dcdcdc;
 }
 
 #outer-wrapper.immersive {
@@ -245,5 +288,5 @@ text-align: center;
 }
 
 #outer-wrapper.showcase {
-	max-width:620px;
+	max-width:860px;
 }

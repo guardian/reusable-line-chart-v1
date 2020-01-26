@@ -1,0 +1,60 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #767676;
+  shape-rendering: crispEdges;
+}
+
+.line {
+	fill: none;
+}
+
+.keyText {
+	font-size:0.8em;
+	margin-left:5px;
+}
+
+#chartKey div {
+	margin-right:10px;
+}
+
+#chartKey div:last-child {
+	margin-right: 0px;
+}
+
+.keyDiv {
+	display: inline-block;
+}
+
+.keyDiv .keyCircle:first-of-type {
+    margin-left:0;
+}
+
+.keyCircle {
+	width:12px;
+	height:12px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.annotationTextMobile {
+	font-weight:bold;
+}
+
+#footerAnnotations {
+	color:#000;
+}
+
+.periodLabel {
+		fill: #cccccc;
+		text-transform: uppercase;
+		font-weight: bold;
+}
+
+@media (max-width: 450px) {
+
+	.mobHide {
+	display: none;
+	}
+
+}
